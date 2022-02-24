@@ -281,3 +281,12 @@
     });
 
 })();
+
+
+// Disable right click 
+// document.querySelector('body').addEventListener('contextmenu', disableRightClick);
+// document.addEventListener('contextmenu', disableRightClick);
+
+// function disableRightClick(e) {
+//     e.preventDefault();
+// }

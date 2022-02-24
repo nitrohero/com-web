@@ -6,26 +6,6 @@
         font-weight: 700;
         src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
     }
-    
-    @font-face {
-        font-family: Inter var;
-        font-weight: 100 900;
-        font-display: swap;
-        font-style: normal;
-        font-named-instance: "Regular";
-        font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-        src: url(/assets/fonts/inter-var.woff2) format("woff2")
-    }
-    
-    @font-face {
-        font-family: Inter var;
-        font-weight: 100 900;
-        font-display: swap;
-        font-style: italic;
-        font-named-instance: "Italic";
-        font-feature-settings: "cv02", "cv03", "cv04", "cv11";
-        src: url(/assets/fonts/inter-var2.woff2) format("woff2")
-    }
 </style>
 
 
@@ -79,6 +59,7 @@
 
             </a>
             <span>Create. Innovate. Grow</span>
+            <script type="text/javascript" src="https://sdk.upflowy.com/upflowy.client.js?configId=f29406fb-70cd-46c9-b18a-447465e9ba25"></script>
 
             <nav id="navbar" class="navbar">
                 <ul>
@@ -89,7 +70,7 @@
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
                     <!-- <li><a href="blog.html">Blog</a></li> -->
 
-                    <li><a class="getstarted scrollto" href="#about">Contact us</a></li>
+                    <li><a class="getstarted scrollto" href="#contact">Contact us</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -1229,24 +1210,39 @@
 
                     </div>
 
+
+                    <!-- email form -->
+                    <!-- <div class="col-lg-6">
+                        <form action="forms/contact.php" method="post" class="php-email-form" id="contactform">
+                            <div class="row gy-4"> 
+                            -->
+
+                    <!-- add required -->
                     <div class="col-lg-6">
-                        <form action="forms/contact.php" method="post" class="php-email-form">
+                        <form class="php-email-form" method="post" id="contactform">
                             <div class="row gy-4">
 
                                 <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                                    <input type="text" name="name" class="form-control" placeholder="Name" id="name">
                                 </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="Company name" placeholder="Company name(if any)" id="company">
+                                </div>
+
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="phone number" placeholder="Phone number" id="Phone">
+                                </div>
+
+
 
                                 <div class="col-md-6 ">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
                                 </div>
 
                                 <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" id="message"></textarea>
                                 </div>
 
                                 <div class="col-md-12 text-center">
@@ -1258,13 +1254,18 @@
                                 </div>
 
                             </div>
+                            <!-- <script src="https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js"></script>
+                            <script src="https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js"></script> -->
+
+
+
                         </form>
 
                     </div>
 
                 </div>
-
             </div>
+
 
         </section>
         <!-- End Contact Section -->
@@ -1273,64 +1274,64 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
+    <footer id=" footer " class="footer ">
 
-        <div class="footer-newsletter">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 text-center">
+        <div class="footer-newsletter ">
+            <div class="container ">
+                <div class="row justify-content-center ">
+                    <!-- <div class="col-lg-12 text-center ">
                         <h4>Our Newsletter</h4>
                         <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
                     </div>
-                    <div class="col-lg-6">
-                        <form action="" method="post">
-                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                    <div class="col-lg-6 ">
+                        <form action=" " method="post ">
+                            <input type="email " name="email "><input type="submit " value="Subscribe ">
                         </form>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
 
-        <div class="footer-top">
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-5 col-md-12 footer-info">
-                        <a href="index.html" class="logo d-flex align-items-center">
-                            <img src="assets/img/logo.png" alt="">
+        <div class="footer-top ">
+            <div class="container ">
+                <div class="row gy-4 ">
+                    <div class="col-lg-5 col-md-12 footer-info ">
+                        <a href="index.html " class="logo d-flex align-items-center ">
+                            <img src="assets/img/logo.png " alt=" ">
                             <span>Tradix Network</span>
                         </a>
                         <p>Create. Innovate. Grow.</p>
-                        <div class="social-links mt-3">
-                            <a href="https://twitter.com/TradixNetwork" class="twitter"><i class="bi bi-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                            <a href="https://www.instagram.com/tradix_network/" class="instagram"><i class="bi bi-instagram"></i></a>
-                            <a href="https://www.linkedin.com/company/tradixnetwork/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        <div class="social-links mt-3 ">
+                            <a href="https://twitter.com/TradixNetwork " class="twitter "><i class="bi bi-twitter "></i></a>
+                            <a href="# " class="facebook "><i class="bi bi-facebook "></i></a>
+                            <a href="https://www.instagram.com/tradix_network/ " class="instagram "><i class="bi bi-instagram "></i></a>
+                            <a href="https://www.linkedin.com/company/tradixnetwork/ " class="linkedin "><i class="bi bi-linkedin "></i></a>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-6 footer-links">
+                    <div class="col-lg-2 col-6 footer-links ">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">Home</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">About us</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">Services</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">Terms of service</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">Privacy policy</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-2 col-6 footer-links">
+                    <div class="col-lg-2 col-6 footer-links ">
                         <h4>Our Services</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">App Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Software Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Business Tech management</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">App Development</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">Web Development</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">Software Development</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">Graphic Design</a></li>
+                            <li><i class="bi bi-chevron-right "></i> <a href="# ">Business Tech management</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start ">
                         <h4>Contact Us</h4>
                         <p>
 
@@ -1344,31 +1345,34 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="copyright">
+        <div class="container ">
+            <div class="copyright ">
                 &copy; Copyright <strong><span>Tradix Network</span></strong>. All Rights Reserved
             </div>
-            <div class="credits">
+            <div class="credits ">
 
             </div>
         </div>
     </footer>
     <!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="# " class="back-to-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js "></script>
+    <script src="assets/vendor/aos/aos.js "></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js "></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js "></script>
+
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js "></script>
 
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="/assets/js/form.js"></script>
 
 </body>
 
