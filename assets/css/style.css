@@ -3,7 +3,7 @@
 }
 
 body {
-    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Open Sans", sans-serif;
     color: #000000;
 }
 
@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-    color: #fafafa;
+    color: #2b358f;
     text-decoration: none;
 }
 
@@ -668,6 +668,16 @@ section {
     margin: 0;
     font-family: "Nunito", sans-serif;
     font-size: 14px;
+}
+
+
+/*--------------------------------------------------------------
+# terms of services and privacy policy sub headings
+--------------------------------------------------------------*/
+
+.subtitle {
+    text-decoration: #013ca3;
+    font-size: medium;
 }
 
 
