@@ -1364,19 +1364,11 @@ section {
     flex-direction: column;
     text-align: center;
     transition: 0.3s;
-}
-
-.testimonials .testimonial-item .stars {
-    margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-    color: #ffc107;
-    margin: 0 1px;
+    border-radius: 7%;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-    width: 90px;
+    width: 200px;
     border-radius: 50%;
     border: 4px solid #fff;
     margin: 0 auto;
@@ -1396,7 +1388,7 @@ section {
 }
 
 .testimonials .testimonial-item p {
-    font-style: italic;
+    font-style: normal;
     margin: 0 auto 15px auto;
 }
 
